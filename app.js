@@ -1,0 +1,598 @@
+//-----------------------------------------------------JavaScript-------------------------------------------------------------//
+
+
+// let a = 5
+// let b = 4
+// let c =(a + b)
+// console.log(c); 
+
+
+//---------------------------------------------------//
+
+
+// let a = 16
+// let b = 12
+// let c = (a - b)
+// console.log(c);
+
+
+//---------------------------------------------------//
+
+
+// let a = 12
+// let b = 4
+// let c = (a / b)
+// console.log(c);
+
+
+//---------------------------------------------------//
+
+
+// let a = 4
+// let b = 3
+// let c = (a * b)
+// console.log(c);
+
+
+//---------------------------------------------------//
+
+
+// let person = {
+//     name:'sanjar',
+//     lName:'usmonov',
+//     age:17,
+//     isMarried:false,
+//     address:{
+//         counry:'UZB',
+//         city:'Tawkent',
+//         street:'bayrak',
+//         number:14,
+//     },
+// }
+// let val;
+// val = person.name;
+// val = person.address.city
+// console.log(val);
+
+
+//---------------------------------------------------//
+
+
+// let numbers = [1,2,3,4,5,6,7,8,9,10]
+// val = numbers.unshift('hello')             //oldiga qowiw
+// val = numbers.length                       //oxirini koriw
+// val = numbers.pop()                        //orqadan oliw
+// val = numbers.push('pis')                  //orqaga qowiw
+// val = numbers                              //hammasini koriw
+// console.log(val);
+
+
+//---------------------------------------------------//
+
+
+// let a = 12
+// let b = 10
+// console.log(Math.max(a, b));
+
+
+//---------------------------------------------------//
+
+
+// let a = 12
+// let b = 10
+// console.log(Math.min(a, b));
+
+
+//---------------------------------------------------//
+
+
+// let number = 1212.9165116516
+// console.log(number.toFixed(3));
+
+
+//---------------------------------------------------//
+
+
+// let number = 1212.9165116516
+// console.log(number.toFixed(4));
+
+
+//---------------------------------------------------//
+
+
+// let number = 1212.9165116516
+// console.log(number.toFixed(2));
+
+
+//---------------------------------------------------//
+
+
+// let number = 1212.9165116516
+// console.log(number.toFixed(2));
+
+
+//---------------------------------------------------//
+
+
+// let number = 1212.9165116516
+// console.log(number.toPrecision(6));
+
+
+//---------------------------------------------------//
+
+
+// let arr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+// for(let i = 0; i < arr.length; i++) {
+//     console.log(arr[i]);
+// }
+
+
+//---------------------------------------------------//
+
+
+// let nums = "8118"
+// nums.split("")
+// for(let i = 0; i < arr.length; i++){
+// console.log(nums);}
+
+
+//---------------------------------------------------//
+
+
+// let letter = "World"
+// let natija = ""
+// for (let i = 1; i <= letter.length; i++) {
+//     natija = natija + letter[letter.length -i]
+// }
+// console.log(natija);
+
+
+//---------------------------------------------------//
+
+
+// let nums = 20 
+// let k = 0
+// for (let i = 0; i <= nums; i++){
+//     if (nums % i == 0) {
+//         k += 1;
+//     }
+// }
+// if (k == 2){
+//     console.log("Tub son");
+// }
+// else{
+//     console.log("Tub emas");
+// }
+
+
+//---------------------------------------------------//
+
+
+// let text = "Biz bir nechta bollar bilan najot talimda oqiymiz. Bizning guruh juda zor"
+// function find(text, b) {
+//     let a = ""
+//     let splitedText = text.split(" ")
+//     for (let i = 0; i < b; i++) {
+//          a = a + splitedText[i] + ' '
+//     }
+//     console.log(a);
+// }
+// console.log(find(text ,5));
+
+
+//---------------------------------------------------//
+
+
+// let arr = ["adac", "xsacsas", "casjtycaca", "xascas", "cascathnffcasccasca", "asf"]
+// let a = 0
+// for(let i = 0;i < arr.length; i++){
+//     if(a < arr[i].length)
+//     a = arr[i].length;
+// }
+// console.log(a);
+
+
+//---------------------------------------------------//
+
+
+// let nums = [1,2,3,4,5,6,7,8,9,10]
+// function add(arr ,num) {
+//     if (typeof num == 'number'){
+//         return arr[num - 1 ]
+//     }
+// }
+// console.log(add(nums, 7));
+
+
+//---------------------------------------------------//
+
+
+// let obj = {
+//     a: 'd',
+//     f: 23,
+//     isMany:true
+// }
+// function inObject(a,b) {
+//     return  Object.keys
+// }
+
+
+//---------------------------------------------------//
+
+
+// let nums = [5 ,7]
+// function value(a) {
+//     let sum = null
+//     for (let i = 0; i < a.length; i++) {
+//         sum = sum + a[i]
+//     }
+//     return sum / a.length
+// }
+// console.log(value(nums));
+
+
+//---------------------------------------------------//
+
+
+// let name = "Akbar"
+// let arr = ["name", 24, true, undefined, null]
+// for(let i = 0;i < arr.length; i++)
+// console.log(arr[i]);
+
+
+//---------------------------------------------------//
+
+
+// let arr = [0, -1, 2, -3, 1, -10]
+// for (i=0; i<arr.length; i++){
+//     if(arr[i] >= 0){
+//         console.log("musbat");
+//     }
+//     else{
+//         console.log('manfiy');
+//     }
+// }
+
+
+//---------------------------------------------------//
+
+
+// let arr = [0, -1, 2, -3, 1, -10]
+// let musbat = null
+// let manfiy = null
+// for (i=0; i<arr.length; i++){
+//     if(arr[i] >= 0){
+//         musbat += arr[i]
+//     }
+//     else{
+//         manfiy += arr[i];
+//     }
+// }
+//     console.log([musbat,manfiy]);
+
+
+//---------------------------------------------------//
+
+
+// let arr = [10, -11, 21, -31, 11, -10]
+// let a = null
+// let b = null
+// for(i = 0; i < arr.length; i++){
+//     if(arr[i] >= 0){
+//         a += arr[i]
+//     }
+//     else{
+//         b += arr[i]
+//     }
+// }
+// console.log(a,b);
+
+
+//---------------------------------------------------//
+
+
+// function sanjar(a, b){
+//     c = a + b
+//     console.log(c);
+// }
+// sanjar(10, 20)
+
+
+//---------------------------------------------------//
+
+
+// let arr = ['Sanjar', 'Xasan', 'Abdulaziz', 'Pirimqul', 'Muhammadqodir']
+// function instagram(name){
+//     for (let i = 1; i < name.length; i++){
+//        if(name[i].toUpperCase()=== name[i]){
+//            console.log(name.indexOf(name[i]));
+//        }
+//     }
+// }
+// instagram("AkbabjbburValiyev")
+
+
+//---------------------------------------------------//
+
+
+// function ajratish(name){
+//     console.log(name);
+//     let index = 0
+//     for(i=1; i<name.length;i++){
+//         if(name[i].toUpperCase() === name[i]){
+//         console.log(name[i]);
+//         index = i
+//     }
+// }
+//     console.log(name.slice(0, index)+ " " + name.slice(index,name.length));
+// }
+// ajratish("UsmonovSanjar")
+
+
+//---------------------------------------------------//
+
+
+// let ism = "Akbarjon";
+// let copy = ism.slice(ism.length - 3, ism.length);
+// console.log(copy);
+
+
+//---------------------------------------------------//
+
+
+// let ism = "Abdulaziz"
+// let copy = ism.slice(4,ism.length);
+// console.log(copy);
+
+
+//---------------------------------------------------//
+
+
+// let ism = "saidmuhhammadalixoja"
+// let a = ism.split('')
+// a.reverse('')
+// let n = a.join('')
+// console.log(n);
+
+// let sana = "12/09/2022"
+// let splited = sana.split("/")
+// console.log(splited.join('.'));
+
+
+//---------------------------------------------------//
+
+
+// let ism = "sanjar"
+// let a = ism[0].toUpperCase()
+// let b = a.toUpperCase()
+// let d = ism.slice(1, ism.length)
+// console.log(b + d) 
+
+
+//---------------------------------------------------//
+
+
+// for (let a = 1; a <= 20; a++)
+// console.log(a);
+
+
+//---------------------------------------------------//
+
+
+// let ism = "sanjar"
+// let p = 0
+// for(n = 0; n <= ism.length; n++){
+//   p = n
+// }
+// console.log(p);
+
+
+//---------------------------------------------------//
+
+
+// let sum = [3, 9, 13, 7]
+// let a = 0
+// let b = 0
+// function on(a,b){
+// }
+// on()
+
+
+//---------------------------------------------------//
+
+
+// let word = "kiyik"
+// function isPalidron(word){
+//     if(word === word.split('').reverse().join('')){
+//         return true
+//     }
+//     return false
+// }
+// console.log(isPalidron(word));
+
+
+//---------------------------------------------------//
+
+
+// let str = ['some', 'somsa', 'is', 'men', 'slide', 'cycle', 'cylindir']
+// let arr = []
+// function findWord(char){
+//     for(let i = 0; i < str.length; i++){
+//         if (str[i][0].toLowerCase()=== char.toLowerCase()) {
+//             arr.push(str[i])
+//         }
+//     }
+//     return arr
+// }
+// console.log(findWord('s'));
+
+
+//---------------------------------------------------//
+
+
+// let words = ['Salom men nemoman','Nemo bu masxaraboz baliq',"Biz uni yaxshi ko'ramiz",'U mulfilmda bor','menda nemoning rasmi bor'];
+//   let w = 'NEmo'
+// function findNemo(char){
+//     let arr = []
+//       for (i = 0; i < char.length; i++ ) {
+//           if(words[i].toLowerCase().includes(w.toLowerCase())){
+//             arr.push(words[i]);
+//           }
+//     }  
+//     return arr
+// }
+// console.log(findNemo(words));
+
+
+//---------------------------------------------------//
+
+
+// let arr = [9, 20]
+// let summ = 0
+// function plus(a, b) {
+//     for(let i = a ;i <= b; i++){
+//         summ += i
+//     }
+//     return summ
+// }
+// console.log(plus(9, 20));
+
+
+//---------------------------------------------------//
+
+
+// let summ = 1
+// function plus(a) {
+//     for(let i = 1 ;i <= a; i++){
+//         summ *= i
+//     }
+//     return summ
+// }
+// console.log(plus(4));
+
+
+//---------------------------------------------------//
+
+
+// let val1 = prompt('H') 
+// let val2 = alert('Q') 
+// let val3 = confirm('W') 
+
+
+//---------------------------------------------------//
+
+
+// let sana = "       SanjarUsmonov      "
+// let splited = sana.slice(" ").join('')
+// console.log(splited);
+
+
+//---------------------------------------------------//
+
+
+//     For OF
+
+// let arr = ['sanjar', 'xasan', 'abdulaziz', 'husniddin']
+// for(let str of arr){
+//     console.log(str);
+// }
+
+
+//---------------------------------------------------//
+
+
+
+//     For IN
+
+// let arr = {
+//     name1: 'sanjar',
+//     name2: 17,
+//     name3: 'sanjar',
+//     name4: 'sanjar',
+
+// };
+// for(let str in arr){
+//     str === 'name1' ?console.log('True') : 'Error';
+// }
+
+
+//---------------------------------------------------//
+
+
+// let i = 0
+// while (i < 10) {
+//     console.log('Ok');
+//     i++;
+// }
+
+
+//---------------------------------------------------//
+
+
+//              IIFE                    
+
+// (()=>{
+//     console.log('Ok');
+// })();
+
+
+//---------------------------------------------------//
+
+
+//              Funtion Declaration                   
+
+// function f(a, b) {
+//     console.log('Ok');
+// }
+// f()
+
+
+//---------------------------------------------------//
+
+
+//               Funtion Expretion                  
+
+// let a = function (a, b){
+//     console.log('Ok');
+// }
+// a()
+
+
+//---------------------------------------------------//
+
+
+let a = prompt('Tezlikni Kiriting')
+function f(d){
+    let s = 138000
+    if (+d <= 30) {
+       console.log('Tezlikni kiritildi:' + 0 + 'sum');
+   }else if(30 < +d && +d <= 70){
+    console.log('Tezlikni kiritildi:' + s + 'sum');
+    console.log(30 < +d <= 70);   
+}else if(70 < +d && +d <= 150) {
+       console.log('Tezlikni kiritildi:' + (s+s) + 'sum');
+   }else {
+    console.log('hello');
+   }
+}
+f(a)
+
+
+
+//---------------------------------------------------//
+
+
+// let a = 3
+// let array = ['a', 'b', 'c', 'd', 'e', 'f']
+// for(let i = 0; i < array.length; i++){
+//     let splited = array.slice(0,array.length - a)
+//     for(let i = 0; i <= a; i++){
+//         let plus = splited.unshift(" ")
+//     }
+//     console.log(splited);
+// }
+
+
+//---------------------------------------------------//
+
+
