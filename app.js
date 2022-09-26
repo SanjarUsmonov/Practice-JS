@@ -569,8 +569,7 @@ function f(d){
     if (+d <= 30) {
        console.log('Jarima summasi:' + ' ' + 0 + 'sum');
    }else if(30 < +d && +d <= 70){
-    console.log('Jarima summasi:' + ' ' + s + 'sum');
-    console.log(30 < +d <= 70);   
+    console.log('Jarima summasi:' + ' ' + s + 'sum');   
 }else if(70 < +d && +d <= 150) {
        console.log('Jarima summasi:' + ' ' + (s+s) + 'sum');
    }
