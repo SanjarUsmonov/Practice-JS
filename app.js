@@ -563,26 +563,26 @@
 
 //     Radar 
 
-let a = prompt('Tezlikni Kiriting')
-function f(d){
-    let s = 138000
-    if (+d <= 30) {
-       console.log('Jarima summasi:' + ' ' + 0 + 'sum');
-   }else if(30 < +d && +d <= 70){
-    console.log('Jarima summasi:' + ' ' + s + 'sum');   
-}else if(70 < +d && +d <= 150) {
-       console.log('Jarima summasi:' + ' ' + (s+s) + 'sum');
-   }
-   else if(150 < +d && +d <= 180) {
-    console.log('Jarima summasi:' + ' ' + (s*5) + 'sum');
-}
-else if(180 < +d && +d <= 220) {
-    console.log('Jarima summasi:' + ' ' + (s*10) + 'sum');
-}else {
-    console.log('Tugadi!');
-   }
-}
-f(a)
+// let a = prompt('Tezlikni Kiriting')
+// function f(d){
+//     let s = 138000
+//     if (+d <= 30) {
+//        console.log('Jarima summasi:' + ' ' + 0 + 'sum');
+//    }else if(30 < +d && +d <= 70){
+//     console.log('Jarima summasi:' + ' ' + s + 'sum');   
+// }else if(70 < +d && +d <= 150) {
+//        console.log('Jarima summasi:' + ' ' + (s+s) + 'sum');
+//    }
+//    else if(150 < +d && +d <= 180) {
+//     console.log('Jarima summasi:' + ' ' + (s*5) + 'sum');
+// }
+// else if(180 < +d && +d <= 220) {
+//     console.log('Jarima summasi:' + ' ' + (s*10) + 'sum');
+// }else {
+//     console.log('Tugadi!');
+//    }
+// }
+// f(a)
 
 
 
@@ -603,3 +603,12 @@ f(a)
 //---------------------------------------------------//
 
 
+let nums = [1,2,3,4,5,6,7,8,9,10]
+let fill = nums.fill('joke', 4,7)
+console.log(fill);
+
+
+//---------------------------------------------------//
+
+
+let users = []
