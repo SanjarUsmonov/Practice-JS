@@ -622,6 +622,13 @@
 //---------------------------------------------------//
 
 
+//     Katta || Kichik
+
+// let arr = [ 1, 8, 6, 4, 2]
+// let n = arr.filter(function(all){
+//     return all = all < 5
+// })
+// console.log(n);
 
 
 
