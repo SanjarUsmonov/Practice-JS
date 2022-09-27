@@ -610,30 +610,68 @@
 
 //---------------------------------------------------//
 
+//    Type find
 
-let users = [{
-    id:1,
-    username:'joseipe',
-    salary: 3000
-},
-{
-    id:2,
-    username:'john',
-    salary: 5000
-},
-{
-    id:3,
-    username:'charly',
-    salary: 1000
-},
-];
+// let arr = ['a', 3, true, undefined, {id:86004516516},'boolean', 'null', null]
+// let findType = arr.find(function (arr) {
+//     return typeof arr === 'boolean'
+// })
+// console.log(findType);
+
+
+//---------------------------------------------------//
+
+
+
+
+
+// let users = [{
+//     id:1,
+//     username:'joseipe',
+//     salary: 3000
+// },
+// {
+//     id:2,
+//     username:'john',
+//     salary: 5000
+// },
+// {
+//     id:3,
+//     username:'charly',
+//     salary: 1000
+// },
+// ];
+// let arr = []
+// function all(n) {
+//     for (let i = 0; index < users.length; i++) {
+//         sum = users.salary[n];
+//         console.log(sum);
+//     }
+// }
+// all()
+
+// function moneyUser(m){
+//     let sum = 0
+//     for(let i=0;i<users.length;i++){
+//         sum += users.salary[i]
+//     }
+//     return sum 
+// }
+// console.log(moneyUser(sum));
+
 
 // let find = users.find(function(users){
 //     return users.username.toLowerCase() === 'joseipe'.toLowerCase()
 // })
-// console.log(find);
 
+// console.log(find);
 // let foundUser = users.filter(function(user){
 //     return(user.salary > 2000)
 // })
 // console.log(foundUser);
+
+
+// let findUser = users.filter(function (users) {
+//     return users.salary > 2000
+// })
+// console.log(findUser);
