@@ -603,12 +603,37 @@
 //---------------------------------------------------//
 
 
-let nums = [1,2,3,4,5,6,7,8,9,10]
-let fill = nums.fill('joke', 4,7)
-console.log(fill);
+// let nums = [1,2,3,4,5,6,7,8,9,10]
+// let fill = nums.fill('joke', 4,7)
+// console.log(fill);
 
 
 //---------------------------------------------------//
 
 
-let users = []
+let users = [{
+    id:1,
+    username:'joseipe',
+    salary: 3000
+},
+{
+    id:2,
+    username:'john',
+    salary: 5000
+},
+{
+    id:3,
+    username:'charly',
+    salary: 1000
+},
+];
+
+// let find = users.find(function(users){
+//     return users.username.toLowerCase() === 'joseipe'.toLowerCase()
+// })
+// console.log(find);
+
+// let foundUser = users.filter(function(user){
+//     return(user.salary > 2000)
+// })
+// console.log(foundUser);
