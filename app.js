@@ -632,22 +632,22 @@
 
 
 
-// let users = [{
-//     id:1,
-//     username:'joseipe',
-//     salary: 3000
-// },
-// {
-//     id:2,
-//     username:'john',
-//     salary: 5000
-// },
-// {
-//     id:3,
-//     username:'charly',
-//     salary: 1000
-// },
-// ];
+let users = [{
+    id:1,
+    username:'joseipe',
+    salary: 3000
+},
+{
+    id:2,
+    username:'john',
+    salary: 5000
+},
+{
+    id:3,
+    username:'charly',
+    salary: 1000
+},
+];
 // let arr = []
 // function all(n) {
 //     for (let i = 0; index < users.length; i++) {
@@ -682,3 +682,12 @@
 //     return users.salary > 2000
 // })
 // console.log(findUser);
+
+
+
+
+
+let arr = [true, undefined, 1, 2, 'sanjar']
+for (let i = 0; i < arr.length; i++) {
+    
+}
