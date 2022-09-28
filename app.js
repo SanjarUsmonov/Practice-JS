@@ -687,7 +687,13 @@ let users = [{
 
 
 
-let arr = [true, undefined, 1, 2, 'sanjar']
-for (let i = 0; i < arr.length; i++) {
-    
-}
+let arr = [true, 1, 2, 'sanjar']
+// let val = arr[2]                                                                     Index bn topish!
+// let val = arr[arr.length -1].split('').reverse().join('').toUpperCase()              Ismni teskari qilish!
+// let val = arr.push('vali')                                                           Orqaga qoshish!
+// let val = arr.unshift('valijon')                                                     Boshiga qoshish!
+// let val = arr.includes(5)                                                            Qaytaradi True || False   
+let val = arr.concat                                                                                                            
+console.log(val);
+
+                                                                                                             
