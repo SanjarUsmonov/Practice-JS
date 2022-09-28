@@ -631,23 +631,88 @@
 // console.log(n);
 
 
+//---------------------------------------------------//
 
-let users = [{
+
+//     Arrayni elementlar
+
+// let arr = [true, 1, 2, 'sanjar']
+// let val = arr[2]                                                                     Index bn topish!
+// let val = arr[arr.length -1].split('').reverse().join('').toUpperCase()              Ismni teskari qilish!
+// let val = arr.push('vali')                                                           Orqaga qoshish!
+// let val = arr.unshift('valijon')                                                     Boshiga qoshish!
+// let val = arr.includes(5)                                                            Qaytaradi True || False!   
+// let val = arr.concat(['olma', 'olcha'])                                              Arrayga array qoshish!  
+// let val = arr.pop()                                                                  Arraydan chopadi!
+// let val = arr.reverse()                                                              Arrayni teskari qilish!
+// console.log(val);
+
+
+//---------------------------------------------------//
+
+
+let arr = [1, 2, true,undefined, 'sanjar',
+{
+    ism:'sanjar',
+    age:17, 
+    addres:{
+        country:'uzb',
+        city:'taw',
+        st:'bayraq'
+    },
+    id:181652165156
+}
+];
+let val = arr.length;
+console.log(val);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+let client = [{
     id:1,
-    username:'joseipe',
-    salary: 3000
+    ism:'Vali',
+    oylik: 3000
 },
 {
     id:2,
-    username:'john',
-    salary: 5000
+    ism:"Ulug'bek",
+    oylik: 5000
 },
 {
     id:3,
-    username:'charly',
-    salary: 1000
+    ism:'Sanjar',
+    oylik: 1000
 },
 ];
+
+
 // let arr = []
 // function all(n) {
 //     for (let i = 0; index < users.length; i++) {
@@ -685,15 +750,5 @@ let users = [{
 
 
 
-
-
-let arr = [true, 1, 2, 'sanjar']
-// let val = arr[2]                                                                     Index bn topish!
-// let val = arr[arr.length -1].split('').reverse().join('').toUpperCase()              Ismni teskari qilish!
-// let val = arr.push('vali')                                                           Orqaga qoshish!
-// let val = arr.unshift('valijon')                                                     Boshiga qoshish!
-// let val = arr.includes(5)                                                            Qaytaradi True || False   
-let val = arr.concat                                                                                                            
-console.log(val);
 
                                                                                                              
