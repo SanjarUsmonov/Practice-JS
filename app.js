@@ -1,6 +1,9 @@
 //-----------------------------------------------------JavaScript-------------------------------------------------------------//
 
 
+// Hoisting function Declarationda va varda Heap memoryda undefined bo'lib turadi!
+
+
 // let a = 5
 // let b = 4
 // let c =(a + b)
@@ -634,7 +637,7 @@
 //---------------------------------------------------//
 
 
-//     Arrayni elementlar
+//     Arrayni metodlari
 
 // let arr = [true, 1, 2, 'sanjar']
 // let val = arr[2]                                                                     Index bn topish!
@@ -651,40 +654,54 @@
 //---------------------------------------------------//
 
 
-let arr = [1, 2, true,undefined, 'sanjar',
-{
-    ism:'sanjar',
-    age:17, 
-    addres:{
-        country:'uzb',
-        city:'taw',
-        st:'bayraq'
-    },
-    id:181652165156
-}
-];
-let val = arr.length;
-console.log(val);
+// let arr = [1, 2, true,undefined, 'sanjar',
+// {
+//     ism:'sanjar',
+//     age:17, 
+//     addres:{
+//         country:'uzb',
+//         city:'taw',
+//         st:'bayraq'
+//     },
+//     id:181652165156
+// }
+// ];
+// let val = arr.length;
+// console.log(val);
 
 
+//---------------------------------------------------//
 
 
+// let arr = [
+// {name:'sanjar', age:17 ,adderess:'uzbekistan'},
+// {name:'abdulloh', age:24, adderess:'tajikistan'}]
+// let findMe = arr[0].age+arr[1].age
+// console.log(findMe);
 
 
+//---------------------------------------------------//
 
 
+// let arr = [
+//     {name:'sanjar', age:27 ,adderess:'uzbekistan',salary:2000},
+//     {name:'abdulloh', age:25, adderess:'tajikistan',salary:2000},
+//     {name:'abdulloh', age:23, adderess:'tajikistan',salary:2000}];
+//     let r = (a,n) => {
+//         return a + n.salary
+//     }
+//     let reducedAge = arr.reduce(r,0)
+//     console.log(reducedAge);
 
 
+//---------------------------------------------------//
 
 
+// let a = Infinity
+// console.log(typeof a);
 
 
-
-
-
-
-
-
+//---------------------------------------------------//
 
 
 
