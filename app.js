@@ -1,7 +1,8 @@
 //-----------------------------------------------------JavaScript-------------------------------------------------------------//
 
 
-// Hoisting function Declarationda va varda Heap memoryda undefined bo'lib turadi!
+//     Hoisting function Declarationda va varda Heap memoryda undefined bo'lib turadi!
+//     TDZ o'lik zona
 
 
 // let a = 5
