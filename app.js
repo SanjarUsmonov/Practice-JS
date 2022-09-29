@@ -1,5 +1,5 @@
-//-----------------------------------------------------JavaScript-------------------------------------------------------------//
 
+//-----------------------------------------------------JavaScript-------------------------------------------------------------//
 
 //     Hoisting function Declarationda va varda Heap memoryda undefined bo'lib turadi!
 //     TDZ o'lik zona
@@ -42,31 +42,31 @@
 
 
 // let person = {
-//     name:'sanjar',
-//     lName:'usmonov',
-//     age:17,
-//     isMarried:false,
-//     address:{
-//         counry:'UZB',
-//         city:'Tawkent',
-//         street:'bayrak',
-//         number:14,
-//     },
-// }
-// let val;
-// val = person.name;
-// val = person.address.city
-// console.log(val);
-
-
-//---------------------------------------------------//
-
-
-// let numbers = [1,2,3,4,5,6,7,8,9,10]
-// val = numbers.unshift('hello')             //oldiga qowiw
-// val = numbers.length                       //oxirini koriw
-// val = numbers.pop()                        //orqadan oliw
-// val = numbers.push('pis')                  //orqaga qowiw
+    //     name:'sanjar',
+    //     lName:'usmonov',
+    //     age:17,
+    //     isMarried:false,
+    //     address:{
+        //         counry:'UZB',
+        //         city:'Tawkent',
+        //         street:'bayrak',
+        //         number:14,
+        //     },
+        // }
+        // let val;
+        // val = person.name;
+        // val = person.address.city
+        // console.log(val);
+        
+        
+        //---------------------------------------------------//
+        
+        
+        // let numbers = [1,2,3,4,5,6,7,8,9,10]
+        // val = numbers.unshift('hello')             //oldiga qowiw
+        // val = numbers.length                       //oxirini koriw
+        // val = numbers.pop()                        //orqadan oliw
+        // val = numbers.push('pis')                  //orqaga qowiw
 // val = numbers                              //hammasini koriw
 // console.log(val);
 
@@ -127,69 +127,69 @@
 
 // let arr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 // for(let i = 0; i < arr.length; i++) {
-//     console.log(arr[i]);
-// }
+    //     console.log(arr[i]);
+    // }
+    
+    
+    //---------------------------------------------------//
+    
 
-
-//---------------------------------------------------//
-
-
-// let nums = "8118"
-// nums.split("")
-// for(let i = 0; i < arr.length; i++){
-// console.log(nums);}
-
-
-//---------------------------------------------------//
-
-
-// let letter = "World"
-// let natija = ""
-// for (let i = 1; i <= letter.length; i++) {
-//     natija = natija + letter[letter.length -i]
-// }
-// console.log(natija);
-
-
-//---------------------------------------------------//
-
-
-// let nums = 20 
-// let k = 0
-// for (let i = 0; i <= nums; i++){
-//     if (nums % i == 0) {
-//         k += 1;
-//     }
-// }
-// if (k == 2){
-//     console.log("Tub son");
-// }
-// else{
-//     console.log("Tub emas");
-// }
-
-
-//---------------------------------------------------//
-
-
-// let text = "Biz bir nechta bollar bilan najot talimda oqiymiz. Bizning guruh juda zor"
-// function find(text, b) {
-//     let a = ""
-//     let splitedText = text.split(" ")
-//     for (let i = 0; i < b; i++) {
-//          a = a + splitedText[i] + ' '
-//     }
-//     console.log(a);
-// }
-// console.log(find(text ,5));
-
-
-//---------------------------------------------------//
-
-
-// let arr = ["adac", "xsacsas", "casjtycaca", "xascas", "cascathnffcasccasca", "asf"]
-// let a = 0
-// for(let i = 0;i < arr.length; i++){
+    // let nums = "8118"
+    // nums.split("")
+    // for(let i = 0; i < arr.length; i++){
+        // console.log(nums);}
+        
+        
+        //---------------------------------------------------//
+        
+        
+        // let letter = "World"
+        // let natija = ""
+        // for (let i = 1; i <= letter.length; i++) {
+            //     natija = natija + letter[letter.length -i]
+            // }
+            // console.log(natija);
+            
+            
+            //---------------------------------------------------//
+            
+            
+            // let nums = 20 
+            // let k = 0
+            // for (let i = 0; i <= nums; i++){
+                //     if (nums % i == 0) {
+                    //         k += 1;
+                    //     }
+                    // }
+                    // if (k == 2){
+                        //     console.log("Tub son");
+                        // }
+                        // else{
+                            //     console.log("Tub emas");
+                            // }
+                            
+                            
+                            //---------------------------------------------------//
+                            
+                            
+                            // let text = "Biz bir nechta bollar bilan najot talimda oqiymiz. Bizning guruh juda zor"
+                            // function find(text, b) {
+                                //     let a = ""
+                                //     let splitedText = text.split(" ")
+                                //     for (let i = 0; i < b; i++) {
+                                    //          a = a + splitedText[i] + ' '
+                                    //     }
+                                    //     console.log(a);
+                                    // }
+                                    // console.log(find(text ,5));
+                                    
+                                    
+                                    //---------------------------------------------------//
+                                    
+                                    
+                                    // let arr = ["adac", "xsacsas", "casjtycaca", "xascas", "cascathnffcasccasca", "asf"]
+                                    // let a = 0
+                                    // for(let i = 0;i < arr.length; i++){
 //     if(a < arr[i].length)
 //     a = arr[i].length;
 // }
@@ -201,59 +201,59 @@
 
 // let nums = [1,2,3,4,5,6,7,8,9,10]
 // function add(arr ,num) {
-//     if (typeof num == 'number'){
-//         return arr[num - 1 ]
-//     }
-// }
-// console.log(add(nums, 7));
-
-
-//---------------------------------------------------//
-
-
-// let obj = {
-//     a: 'd',
-//     f: 23,
-//     isMany:true
-// }
-// function inObject(a,b) {
-//     return  Object.keys
-// }
-
-
-//---------------------------------------------------//
-
-
-// let nums = [5 ,7]
-// function value(a) {
-//     let sum = null
-//     for (let i = 0; i < a.length; i++) {
-//         sum = sum + a[i]
-//     }
-//     return sum / a.length
-// }
-// console.log(value(nums));
-
-
-//---------------------------------------------------//
-
-
-// let name = "Akbar"
-// let arr = ["name", 24, true, undefined, null]
-// for(let i = 0;i < arr.length; i++)
-// console.log(arr[i]);
-
-
-//---------------------------------------------------//
-
-
-// let arr = [0, -1, 2, -3, 1, -10]
-// for (i=0; i<arr.length; i++){
-//     if(arr[i] >= 0){
-//         console.log("musbat");
-//     }
-//     else{
-//         console.log('manfiy');
+    //     if (typeof num == 'number'){
+        //         return arr[num - 1 ]
+        //     }
+        // }
+        // console.log(add(nums, 7));
+        
+        
+        //---------------------------------------------------//
+        
+        
+        // let obj = {
+            //     a: 'd',
+            //     f: 23,
+            //     isMany:true
+            // }
+            // function inObject(a,b) {
+                //     return  Object.keys
+                // }
+                
+                
+                //---------------------------------------------------//
+                
+                
+                // let nums = [5 ,7]
+                // function value(a) {
+                    //     let sum = null
+                    //     for (let i = 0; i < a.length; i++) {
+                        //         sum = sum + a[i]
+                        //     }
+                        //     return sum / a.length
+                        // }
+                        // console.log(value(nums));
+                        
+                        
+                        //---------------------------------------------------//
+                        
+                        
+                        // let name = "Akbar"
+                        // let arr = ["name", 24, true, undefined, null]
+                        // for(let i = 0;i < arr.length; i++)
+                        // console.log(arr[i]);
+                        
+                        
+                        //---------------------------------------------------//
+                        
+                        
+                        // let arr = [0, -1, 2, -3, 1, -10]
+                        // for (i=0; i<arr.length; i++){
+                            //     if(arr[i] >= 0){
+                                //         console.log("musbat");
+                                //     }
+                                //     else{
+                                    //         console.log('manfiy');
 //     }
 // }
 
@@ -265,15 +265,15 @@
 // let musbat = null
 // let manfiy = null
 // for (i=0; i<arr.length; i++){
-//     if(arr[i] >= 0){
-//         musbat += arr[i]
-//     }
-//     else{
-//         manfiy += arr[i];
-//     }
-// }
-//     console.log([musbat,manfiy]);
-
+    //     if(arr[i] >= 0){
+        //         musbat += arr[i]
+        //     }
+        //     else{
+            //         manfiy += arr[i];
+            //     }
+            // }
+            //     console.log([musbat,manfiy]);
+            
 
 //---------------------------------------------------//
 
@@ -764,9 +764,4 @@ let client = [{
 // let findUser = users.filter(function (users) {
 //     return users.salary > 2000
 // })
-// console.log(findUser);
-
-
-
-
-                                                                                                             
+// console.log(findUser);                                                                                                       
