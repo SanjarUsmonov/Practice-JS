@@ -62,12 +62,12 @@
         //---------------------------------------------------//
         
         
-        // let numbers = [1,2,3,4,5,6,7,8,9,10]
-        // val = numbers.unshift('hello')             //oldiga qowiw
-        // val = numbers.length                       //oxirini koriw
-        // val = numbers.pop()                        //orqadan oliw
-        // val = numbers.push('pis')                  //orqaga qowiw
-// val = numbers                              //hammasini koriw
+// let numbers = [1,2,3,4,5,6,7,8,9,10]
+// val = numbers.unshift('hello')             //oldiga qowiw
+// val = numbers.length                       //oxirini koriw
+// val = numbers.pop()                        //orqadan oliw
+// val = numbers.push('pis')                  //orqaga qowiw
+// val = numbers                                      //hammasini koriw
 // console.log(val);
 
 
@@ -265,14 +265,14 @@
 // let musbat = null
 // let manfiy = null
 // for (i=0; i<arr.length; i++){
-    //     if(arr[i] >= 0){
-        //         musbat += arr[i]
-        //     }
-        //     else{
-            //         manfiy += arr[i];
-            //     }
-            // }
-            //     console.log([musbat,manfiy]);
+//         if(arr[i] >= 0){
+//                 musbat += arr[i]
+//             }
+//     else{
+//         manfiy += arr[i];
+// }
+// }
+// console.log([musbat,manfiy]);
             
 
 //---------------------------------------------------//
@@ -371,6 +371,13 @@
 // let b = a.toUpperCase()
 // let d = ism.slice(1, ism.length)
 // console.log(b + d) 
+
+//---------------------------------------------------//
+
+
+let arr = [1,2,3,4,5,6,7,8,9,11]
+arr.splice(1,5)
+console.log(arr);
 
 
 //---------------------------------------------------//
