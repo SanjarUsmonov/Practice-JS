@@ -1,7 +1,7 @@
 
 //-----------------------------------------------------JavaScript-------------------------------------------------------------//
 
-//     Hoisting function Declarationda va varda Heap memoryda undefined bo'lib turadi!
+//     Hoisting function Declarationda va VARda Heap memoryda undefined bo'lib turadi!
 //     TDZ o'lik zona
 
 
@@ -42,24 +42,24 @@
 
 
 // let person = {
-    //     name:'sanjar',
-    //     lName:'usmonov',
-    //     age:17,
-    //     isMarried:false,
-    //     address:{
-        //         counry:'UZB',
-        //         city:'Tawkent',
-        //         street:'bayrak',
-        //         number:14,
-        //     },
-        // }
-        // let val;
-        // val = person.name;
-        // val = person.address.city
-        // console.log(val);
+//         name:'sanjar',
+//         lName:'usmonov',
+//         age:17,
+//         isMarried:false,
+//         address:{
+//                 counry:'UZB',
+//                 city:'Tawkent',
+//                 street:'bayrak',
+//                 number:14,
+//             },
+//         }
+//         let val;
+//         val = person.name;
+//         val = person.address.city
+//         console.log(val);
         
         
-        //---------------------------------------------------//
+//---------------------------------------------------//
         
         
 // let numbers = [1,2,3,4,5,6,7,8,9,10]
@@ -375,9 +375,9 @@
 //---------------------------------------------------//
 
 
-let arr = [1,2,3,4,5,6,7,8,9,11]
-arr.splice(1,5)
-console.log(arr);
+// let arr = [1,2,3,4,5,6,7,8,9,11]
+// arr.splice(1,5)
+// console.log(arr);
 
 
 //---------------------------------------------------//
@@ -712,31 +712,22 @@ console.log(arr);
 //---------------------------------------------------//
 
 
-
-
-
-
-
-
-
-
-let client = [{
-    id:1,
-    ism:'Vali',
-    oylik: 3000
-},
-{
-    id:2,
-    ism:"Ulug'bek",
-    oylik: 5000
-},
-{
-    id:3,
-    ism:'Sanjar',
-    oylik: 1000
-},
-];
-
+// let client = [{
+//     id:1,
+//     ism:'Vali',
+//     oylik: 3000
+// },
+// {
+//     id:2,
+//     ism:"Ulug'bek",
+//     oylik: 5000
+// },
+// {
+//     id:3,
+//     ism:'Sanjar',
+//     oylik: 1000
+// },
+// ];
 
 // let arr = []
 // function all(n) {
@@ -767,8 +758,106 @@ let client = [{
 // })
 // console.log(foundUser);
 
-
 // let findUser = users.filter(function (users) {
 //     return users.salary > 2000
 // })
-// console.log(findUser);                                                                                                       
+// console.log(findUser);     
+
+
+//---------------------------------------------------//
+
+
+// let arr = [1,2,3,4,5,6,7,8,9,10]
+// // let s = arr.find(n => n > 4)                        
+// // let s = arr.filter(n => n > 4)
+// console.log(s);
+
+
+//---------------------------------------------------//
+
+
+// let user = [{
+//     name:'Valijon',
+//     age: 11,
+//     address:{
+//         country:'Uzb',
+//         city:'Taw',
+//         st:'Bayraq'
+//     },
+//     number:997243819
+// },
+// {
+//     name:'Alijon',
+//     age: 19,
+//     address:{
+//         country:'Uzb',
+//         city:'And',
+//         st:'Bayraq'
+//     },
+//     number:997258729
+// },
+// {
+//     name:'Ganijon',
+//     age: 18,
+//     address:{
+//         country:'Taj',
+//         city:'Duw',
+//         st:'Iraq'
+//     },
+//     number:9973253819
+// }
+// ];
+
+// // let findUser = user.filter(n => n.age > 15)
+// // let findUser = user.concat({
+// //     name:'Abdullajon',
+// //     age: 34,
+// //     address:{
+// //         country:'Krz',
+// //         city:'Osh',
+// //         st:'Quduq'
+// //     },
+// //     number:8873283899
+// // })
+// // let findUser = user.filter(n => n.address.country === 'Taj')
+// // let findUser = user.filter(n => n.age === 18 && n.address.city === 'Duw')
+
+// console.log(findUser);
+
+
+//---------------------------------------------------//
+
+
+// let arr = [1,8,7,2,9,3,7,5,3,1,7,6,5,]
+// let filtered = arr.filter(n => n > 5)
+// let reduced = arr.reduce((a, b) => a + b,0)
+// console.log(reduced);
+
+
+
+//---------------------------------------------------/
+
+
+// let companies = [{
+//     name: 'Auto',
+//     started: 1980,
+//     finished: 2000,
+// },
+// {
+//     name: 'Choco',
+//     started: 1980,
+//     finished: 2010,
+// },
+// {
+//     name: 'Milk',
+//     started: 2000,
+//     finished: 2020,
+// },
+// {
+//     name: 'Bread',
+//     started: 1970,
+//     finished: 1980,
+// }
+// ];
+// // let findCom = companies.reduce((a, b) => a + (b.finished - b.started),0)          Hamma yillari topildi!
+// console.log(findCom);
