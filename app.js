@@ -358,6 +358,10 @@
 // let n = a.join('')
 // console.log(n);
 
+
+//---------------------------------------------------//
+
+
 // let sana = "12/09/2022"
 // let splited = sana.split("/")
 // console.log(splited.join('.'));
@@ -835,7 +839,7 @@
 
 
 
-//---------------------------------------------------/
+//---------------------------------------------------//
 
 
 // let companies = [{
@@ -860,4 +864,6 @@
 // }
 // ];
 // // let findCom = companies.reduce((a, b) => a + (b.finished - b.started),0)          Hamma yillari topildi!
-// console.log(findCom);
+// let forEach = companies.forEach(function(company){
+//     console.log(company.name);
+// })
