@@ -891,6 +891,21 @@
 // let n = ""
 // for (a in obj) {
 //     if (Object.keys. == n) {
-        
 //     }
 // }
+
+
+//---------------------------------------------------//
+
+
+let  a = 'V'
+let  b = 't'
+
+function Uppercaseed(n,m) {
+    if (n.toUpperCase() == m.toUpperCase()) {
+        return 1
+    }else if (n.toLowerCase() == m.toLowerCase()){
+        return 0
+    }
+}
+console.log(Uppercaseed(a,b));
