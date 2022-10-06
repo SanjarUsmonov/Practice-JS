@@ -872,25 +872,6 @@
 //---------------------------------------------------//
 
 
-// let arr = ['aziza', 1221]
-// function isPalidron(arr) {
-    //     for (a of arr) {
-        //         if () {
-            
-            //         }
-            //         let splited = a.split("").reverse().join("")
-            //         if (a == splited) {
-                //             return true
-                //         }
-                
-                //     }
-                // }
-// console.log(isPalidron(arr));
-
-
-//---------------------------------------------------//
-
-
 // let arr = [10,9,8,7,6,5,4,3,2,1,]
 // let all = null
 // for (a of arr) {
